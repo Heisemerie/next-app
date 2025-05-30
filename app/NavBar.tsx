@@ -14,6 +14,9 @@ const NavBar = () => {
       <Link href={"/users"} className="mr-3">
         Users
       </Link>
+      <Link href={"/products"} className="mr-3">
+        Products
+      </Link>
       <Link href={"/admin"} className="mr-3">
         Admin
       </Link>
@@ -28,7 +31,9 @@ const NavBar = () => {
       {status === "authenticated" && (
         <div className="mr-3">
           {session.user?.name}
-          <Link href={'/api/auth/signout'} className="ml-3">Sign out</Link>
+          <Link href={"/api/auth/signout"} className="ml-3">
+            Sign out
+          </Link>
         </div>
       )}
     </div>
