@@ -20,6 +20,9 @@ const NavBar = () => {
       <Link href={"/admin"} className="mr-3">
         Admin
       </Link>
+      <Link href={"/upload"} className="mr-3">
+        Upload
+      </Link>
       {status === "loading" && (
         <span className="loading loading-dots loading-lg"></span>
       )}
