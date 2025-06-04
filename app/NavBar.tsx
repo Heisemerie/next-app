@@ -31,6 +31,11 @@ const NavBar = () => {
           Sign In
         </Link>
       )}
+      {status === "unauthenticated" && (
+        <Link href={"/api/auth/token"} className="mr-3">
+          JWT
+        </Link>
+      )}
       {status === "authenticated" && (
         <div className="mr-3">
           {session.user?.name}
