@@ -202,7 +202,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\Heisemerie\\Workspace\\next-app-13\\app\\generated\\prisma",
+      "value": "C:\\Users\\ejike_o0owecf\\Workspace\\next-app-13\\app\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -216,7 +216,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\Heisemerie\\Workspace\\next-app-13\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\ejike_o0owecf\\Workspace\\next-app-13\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
